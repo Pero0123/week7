@@ -3,6 +3,12 @@ package ie.atu;
 public class ArrayDemo {
     public static void main(String[] args)
     {
+       printArray();
+    }
+
+    //method to intitialize array and print out contents
+    static void printArray()
+    {
         //declares an array of ints
         int[] anArray;
         int i;
@@ -21,6 +27,5 @@ public class ArrayDemo {
         {
             System.out.println("Element at "+ i + " " +"is "+anArray[i]);
         }
-
     }
 }
